@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Mobile App 001
+title = DarkLight
 
 # (str) Package name
-package.name = mobileapp001
+package.name = darklight
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.wiseplat
+package.domain = org.darklight
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -36,7 +36,7 @@ version = 0.3
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.0.0
+requirements = python3==3.7.6, hostpython3==3.7.6, kivy==2.3.0, kivymd==1.2.0,pillow, kivy-garden,  requests, plyer, android
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
